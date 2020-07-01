@@ -1,0 +1,7 @@
+﻿- Cấu trúc dự án 
+ + MI.Entity => Tầng khai báo các object và enums cần thiết (Tất cả các object sẽ khai báo ở đây
+ + MI.ES => Tầng triển khai lớp Elastic Search  sau sẽ triển khai thêm sau (Cơ bản cũng nên có 1 tầng object và 1 tầng triển khai query )
+ + MI.BO => Tầng triển khai các query truy vấn CRUD (Định hình dự án sẽ dùng Dapper)
+ + MI.Service => Tầng để triển khai các query kết nối giữa query sql và elastic search thêm sau .
+ + MI.BOBAPI = > Tầng viết API 
+ + Utils => Tầng viết ra function dùng chung . Như fomat số , url .... có sãn 1 số hàm 
